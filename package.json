@@ -1,0 +1,23 @@
+{
+  "name": "trialApp",
+  "version": "1.0.0",
+  "description": "trial of a node.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giusepperossetti/trialApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giusepperossetti/trialApp/issues"
+  },
+  "homepage": "https://github.com/giusepperossetti/trialApp#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
