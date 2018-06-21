@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/giusepperossetti/trialApp#readme",
   "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
     "live-server": "^1.2.0"
   }
 }
