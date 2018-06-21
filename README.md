@@ -1,2 +1,2 @@
-# app
-trial of a node.js app
+# Esercizio 1
+Prova creazione oggetto
