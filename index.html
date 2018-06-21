@@ -34,7 +34,7 @@
     var hotel = new Object();
     hotel.name = 'Ritz';
     hotel.rooms = 110;
-    hotel.booked = 55;
+    hotel.booked = 75;
     hotel.checkRooms = function () {
         return hotel.rooms - hotel.booked;
     }
@@ -42,7 +42,12 @@
     // Function for book now button
 
     function book() {
-        return hotel.checkRooms() - 1;
+        var i = 0;
+        while (i < hotel.checkRooms()) {
+            var OneLess = document.getElementById('free');
+            OneLess.textContent = hotel.checkRooms() - 1;
+            i++;
+        }
     }
 
     // textContent for document events
