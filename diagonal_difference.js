@@ -8,9 +8,11 @@ function DiagonalDifference(a) {
 
   // Loop for getting diagonals
 
+  var col = 0;
+
   for (row = 0; row < a.length; row++) {
     diagOne += a[row][row];
-    var col = a.length - (row + 1);
+    col = a.length - (row + 1);
     diagTwo += a[row][col];
   }
 
