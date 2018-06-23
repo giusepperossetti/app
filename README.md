@@ -1,3 +1,3 @@
-# Esercizio 1 - 21/06/2018
+# 23/06/2018 - Prova creazione server NodeJS / ExpressJS.
 
-Prova creazione oggetto
+Creata un'app con un form di registrazione. Usato metodo Post. Interfacciato con file di tipo Jade.
